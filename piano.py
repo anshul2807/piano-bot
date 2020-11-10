@@ -9,7 +9,7 @@ x2 = 630
 x3 = 720
 x4 = 868
 time.sleep(3)
-while not keyboard.is_pressed('s'):
+while not keyboard.is_pressed('f'):
   if pyautogui.pixel(x1, y)[0] < 20:
     pyautogui.click(x1, y)
   if pyautogui.pixel(x2, y)[0] < 20:
